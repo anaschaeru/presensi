@@ -1,0 +1,67 @@
+body {
+   font-size: 12px;
+   font-family: "Montserrat", sans-serif;
+}
+
+.body-img {
+   background-image: url(img/background.jpg);
+   background-size: cover;
+   width:50px;
+   width: 100%;
+}
+
+.bg-info {
+   background-color: #1572A1 !important;
+
+}
+.bg-light {
+  opacity: 0.5 !important;
+}
+
+.btn-info {
+   background-color: #1572A1 !important;
+   border: 0px;
+}
+
+.btn-secondary {
+   background-color: #9AD0EC !important;
+   border: 0px;
+}
+
+.border-info {
+   border-color: #1572A1 !important;
+}
+
+td {
+   padding-bottom: 5px;
+   padding-left: 5px;
+   font-weight: bold;
+}
+
+.radius-10 {
+  border-radius: 10px !important;
+}
+
+.radius-25 {
+  border-radius: 25px !important;
+}
+
+.radius-0 {
+  border-radius: 0px !important;
+}
+
+.h-60 {
+  height: 60px;
+}
+
+.card {
+  border: 0px;
+}
+
+.logo {
+  width: 60px !important;
+}
+
+.cap {
+  text-transform: capitalize;
+}

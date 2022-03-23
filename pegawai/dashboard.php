@@ -21,6 +21,8 @@ include '../layout/header.php';
             <div class="card-body">
                <h6 class="fw-bold" id="jam"></h6>
                <h6 id="tanggal"></h6>
+               <!-- <button onclick="getLocation()">Try It</button>
+                    <p id="demo"></p> -->
             </div>
          </div>
       </div>
@@ -70,7 +72,7 @@ include '../layout/header.php';
       </div>
    </div>
 </div>
-<div class="container py-4 bg-info mh-100" style="border-radius: 25px 25px 0px 0px;">
+<div class="container py-4 bg-info" style="border-radius: 25px 25px 0px 0px;">
    <?php
    error_reporting(0);
    $tanggal_now = date("Y-m-d");
