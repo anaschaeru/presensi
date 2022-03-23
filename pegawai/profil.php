@@ -18,13 +18,9 @@
                <table class="cap">
                   <tbody>
                      <tr>
-                        <td>
-                           Nama
-                        </td>
+                        <td>Nama</td>
                         <td>:</td>
-                        <td class="cap">
-                           <?= $nama; ?>
-                        </td>
+                        <td class="cap"><?= $nama; ?></td>
                      </tr>
                      <tr>
                         <td>NIP</td>
