@@ -84,6 +84,7 @@ include '../layout/header.php';
    $data_cek_pulang = mysqli_fetch_object($query_cek_pulang);
    $cek_row_absen = mysqli_num_rows($cek_absen);
    $cek = mysqli_num_rows($query_cek_absen);
+   $jam = date("G:i:s");
 
    if ($cek > 0) {
       if ($data_cek->jenis_absen == "1") {
