@@ -16,13 +16,13 @@
             <h5 class="fw-bold">Work From Home</h5>
             <div class="row p-3">
                <div class="col mb-3">
-                  <button onclick="document.location='konfirmasi-absen.php?jenis_absen=2&absen=1'" class="btn btn-success p-5 justify-align-end w-100 mb-3 " <?= $data_cek->absen == 1 ? "disabled" : ""; ?>>
+                  <button onclick="document.location='konfirmasi-absen.php?jenis_absen=1&absen=1'" class="btn btn-success p-5 justify-align-end w-100 mb-3" <?= $data_cek->absen == 1 ? "disabled" : ($jam <= 06.59 ? "disabled" : "") ?>>
                      <i class="bi bi-box-arrow-in-left" style="font-size: 40px;"></i>
                   </button><br>
                   <label>Masuk</label>
                </div>
                <div class="col mb-3">
-                  <button onclick="document.location='konfirmasi-absen.php?jenis_absen=2&absen=2'" class="btn btn-danger p-5 justify-align-end w-100 mb-3" <?= $data_cek_pulang->absen == 2 ? "disabled" : ""; ?><?= $cek_row_absen <= 0 ? "disabled" : ""; ?>>
+                  <button onclick="document.location='konfirmasi-absen.php?jenis_absen=1&absen=2'" class="btn btn-danger p-5 justify-align-end w-100 mb-3" <?= $data_cek_pulang->absen == 2 ? "disabled" : ($cek_row_absen <= 0 ? "disabled" : ($jam < 15.59 ? "disabled"  : "")) ?>>
                      <i class="bi bi-box-arrow-right" style="font-size: 40px;"></i>
                   </button><br>
                   <label>Pulang</label>
